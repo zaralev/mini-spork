@@ -438,6 +438,10 @@ span.text-content {
   }
 }
 
+.rowMid {
+  margin-top: 2em;
+}
+
 footer {
   width:100%;
   height:5em;
