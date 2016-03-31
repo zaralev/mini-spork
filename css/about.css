@@ -184,8 +184,48 @@ nav ul {
   overflow: hidden;
 }
 
+/* START TITLE NAV EFFECT */
 nav li {
   float: right;
+  overflow:hidden;
+  position:relative;
+}
+
+
+.hiddenTitle {
+  font-size: 0.45em;
+  position:absolute;
+  top:4.8em;
+  opacity:1;
+  color:#000;
+  font-weight:bold;
+  letter-spacing: -0.03em;
+  transition: 0.7s all ease;
+
+}
+@media screen and (min-width: 800px) {
+  .hiddenTitle {
+    top:-1em;
+    opacity: 0;
+  }
+}
+
+.about {
+  left: 0em;
+}
+
+.home {
+  left:-0.022em;
+}
+
+.resume {
+  left:-0.08em;
+}
+
+a.icon:hover span.hiddenTitle{
+  top: 4.8em;
+  overflow:visible;
+  opacity: 1;
 }
 
 nav li a {
@@ -194,8 +234,10 @@ nav li a {
   text-align: center;
   padding: 20px 15px 20px 0px;
   text-decoration: none;
+  width:2em;
   transition: 0.5s all ease;
 }
+/* END TITLE NAV EFFECT*/
 
 .icon {
   padding: 20px 15px 20px 0px !important;

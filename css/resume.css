@@ -120,212 +120,17 @@
 
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-a {
-  text-decoration: none;
-  color: #FF1717; }
-  a:hover {
-    color: #FF5917; }
-
-#MB {
-  color: #FF1717; }
-
-#aj {
-  color: #19C0F7; }
-
-#schol {
-  color: #19C0F7; }
-
-#deviant {
-  color: #19C0F7; }
-
-body {
-  font-size: 0.8em;
-  font-family: Helvetica, sans-serif; }
-  @media screen and (min-width: 600px) {
-    body {
-      font-size: 0.95em; } }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, sans-serif;
-  font-weight: bold; }
-
-h1 {
-  font-family: Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 2.5em !important;
-  transition: 0.5s all ease;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-bottom: 1em;
-  text-shadow: 1px 1px #FFFFFF, 2px 2px #000000; }
-  h1:hover {
-    text-shadow: 1px 1px #FFFFFF, 2px 2px #000000, 3px 3px #FFFFFF, 4px 4px #000000, 5px 5px #FFFFFF, 6px 6px #000000; }
-  @media screen and (min-width: 600px) {
-    h1 {
-      font-size: 3em !important; }
-    h1 a{
-      font-size:0.7em;
-      }}
-
-h1 a{
-  text-shadow:none;
-  font-size:0.5em;
-}
-
-.headerTwo {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 4em; }
-
-.jobDate {
-  font-family: Georgia,serif;
-  font-style: italic; }
-
-.jobName {
-  font-weight: bold;
-  font-size: 1.2em; }
-
-.eduName {
-  font-weight: bold;
-  font-size: 1.2em; }
-
-.eduName a {
-  color: #FF7817; }
-
-.eduName a:hover {
-  color: #FF9C33; }
-
-.actName {
-  font-weight: bold;
-  font-size: 1.2em; }
-
-.actName a {
-  color: #8BE036; }
-
-.actName a:hover {
-  color: #91FA5C; }
-
-.jobTitle {
-  padding-left: 0.8em;
-  margin-top: 1em; }
-
-.jobDescription {
-  margin-top: 0em; }
-
-.job {
-  padding-left: 1em;
-  margin-bottom: 1em; }
-  @media screen and (min-width: 600px) {
-    .job {
-      font-size: 0.95em; } }
-
-#resumeWrap {
-  width: 80%;
-  margin: auto;
-  margin-top:4em;
-  padding-top: 2em; }
-
-#skills {
-  margin-top: 1em;
-  padding-top: 1em; }
-  @media screen and (min-width: 600px) {
-    #skills {
-      margin-top: 0;
-      padding-top: 0; }
-    }
-  @media screen and (min-width: 700px) {
-    #resumeWrap{
-      margin-top:3em;
-      }
-    }
-@media screen and (min-width: 600px) {
-  .resumeMain {
-    float: left;
-    width: 60%;
-    padding-right: 0.5em;
-    padding-bottom: 1em; }
-
-  .resumeSecondary {
-    padding-top: 0;
-    float: right;
-    width: 40%;
-    padding-left: 1.5em; } }
-ul {
-  margin-left: 2em;
-  padding: 0.2em; }
-
-li {
-  padding: 0.2em; }
-
-.skills {
-  font-family: Georgia, serif;
-  font-style: italic; }
-
-.resumeContact ul {
-  list-style-type: none;
-  padding: 0.5em 0 2.4em 0;
-  margin: 0;
-  font-size: 0.74em; }
-  @media screen and (min-width: 600px) {
-    .resumeContact ul {
-      padding: 0.8em 0 3em 0;
-      font-size: 0.89em; } }
-.resumeContact li {
-  float: left;
-  padding: 0 1em 0 0; }
-.resumeContact li:last-child {
-  border-right: none; }
-.resumeContact li a {
-  text-decoration: none;
-  color: #666;
-  text-transform: uppercase;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
-.resumeContact li a:hover {
-  color: #000; }
-.resumeContact li.active a {
-  font-weight: bold;
-  color: #000; }
-
-/* FOOTER */
-.rowLast {
-  margin-bottom:2em;
-}
-@media screen and (min-width: 768px) {
-  .rowLast {
-    margin-bottom:5em;
-  }
-}
-
-footer {
-  width:100%;
-  height:5em;
-  background-color: #FFF;
-  color:#000;
-  padding:2em;
-  font-family: 'ralewaybold', sans-serif !important;
-  text-transform: uppercase;
+/* LINKS */
+span a {
+  color: #F00;
   transition: 1s all ease;
-  text-align:center;
-  clear:both;
+  text-decoration:none;
+}
+span a:hover {
+  color: #00F;
+  text-decoration:none;
 }
 
-footer:hover{
-  /* Empty for later */
-}
-
-#copyright {
-  text-align:center;
-  margin:auto;
-}
 
 /* NAV */
 header{
@@ -338,20 +143,20 @@ header{
 nav {
   width: 95%;
   text-transform:uppercase;
-  font-size: 1.48em;
+  font-size: 1.8em;
   font-family: 'ralewaybold', sans-serif;
 }
 
 @media screen and (max-width: 375px) {
   nav {
-    font-size: 1.914em;
+    font-size: 1.8em;
     padding-left: 0.3em;
   }
 }
 
 @media screen and (min-width: 612px) {
   nav {
-    font-size: 1.48em;
+    font-size: 1.6em;
   }
 }
 
@@ -360,31 +165,72 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  padding-right:5px;
 }
-
+/* START TITLE NAV EFFECT */
 nav li {
   float: right;
+  overflow:hidden;
+  position:relative;
 }
 
-nav li a {
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 18px 6px 20px 0px;
-  text-decoration: none;
-  transition: 0.5s all ease;
+
+.hiddenTitle {
+  font-size: 0.45em;
+  position:absolute;
+  top:4.8em;
+  opacity:1;
+  color:#000;
+  font-weight:bold;
+  letter-spacing: -0.03em;
+  transition: 0.7s all ease;
+
+}
+@media screen and (min-width: 800px) {
+  .hiddenTitle {
+    top:-1em;
+    opacity: 0;
+  }
 }
 
-.icon {
-  padding: 18px 6px 20px 0px !important;
-  margin: 0 !important;
+.about {
+  left: 0em;
+}
+
+.home {
+  left:-0.022em;
+}
+
+.resume {
+  left:-0.08em;
+}
+
+a.icon:hover span.hiddenTitle{
+  top: 4.8em;
+  overflow:visible;
+  opacity: 1;
 }
 
 nav li a:hover {
   color: #F00;
   text-decoration: none;
 }
+
+nav li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 20px 15px 20px 0px;
+  width:2em;
+  text-decoration: none;
+  transition: 0.5s all ease;
+}
+/* END TITLE NAV EFFECT*/
+
+.icon {
+  padding: 20px 15px 20px 0px !important;
+  margin: 0 !important;
+}
+
 /* NAV LINKS */
 .active {
   color: #F00;
@@ -395,3 +241,187 @@ nav li a:hover {
   color: #00F;
   text-decoration: underline;
 }
+=
+/* FOOTER */
+.rowLast {
+  margin-bottom:2em;
+}
+@media screen and (min-width: 768px) {
+  .rowLast {
+    margin-bottom:5em;
+  }
+}
+
+.rowMid {
+  margin-top: 2em;
+}
+
+footer {
+  width:100%;
+  height:5em;
+  background-color: #FFF;
+  color:#000;
+  padding:2em;
+  font-family: 'ralewaybold', sans-serif !important;
+  text-transform: uppercase;
+  transition: 1s all ease;
+  clear:both;
+}
+
+footer:hover{
+  /* Empty for later */
+}
+
+#copyright {
+  text-align:center;
+  margin:auto;
+}
+
+.project{
+  color:#00aced;
+}
+
+.project:hover{
+  color:#D00;
+}
+
+/*ORIG*/
+
+#resumeWrap a {
+  text-decoration: none !important;
+  color: #FF1717; }
+  a:hover {
+    color: #FF5917; }
+
+#MB {
+  color: #FF1717 !important; }
+
+#aj {
+  color: #19C0F7 !important; }
+
+#schol {
+  color: #19C0F7 !important; }
+
+#deviant {
+  color: #19C0F7 !important; }
+
+#resumeWrap {
+  font-size: 1em !important;
+  font-family: Helvetica, sans-serif !important; }
+  @media screen and (min-width: 600px) {
+    #resumeWrap {
+      font-size:1.2em !important; } }
+  @media screen and (max-width: 600px) {
+    .resumeMain{
+      padding-top:1em;
+    }
+    #resumeWrap {
+      padding-top: 5em !important;
+    }
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, sans-serif !important;
+  font-weight: bold !important; }
+
+h1 {
+  font-family: Helvetica, sans-serif !important;
+  font-weight: bold !important;
+  font-size: 5em !important;
+  transition: 0.5s all ease !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  text-shadow: 1px 1px #FFFFFF, 2px 2px #000000; }
+  h1:hover {
+    text-shadow: 1px 1px #FFFFFF, 2px 2px #000000, 3px 3px #FFFFFF, 4px 4px #000000, 5px 5px #FFFFFF, 6px 6px #000000; }
+  @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 5em !important; } }
+
+h1 span {
+  text-shadow:none !important;
+  color:#F00 !important;
+}
+
+.headerTwo {
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+  margin-bottom: 4em !important; }
+
+.jobDate {
+  font-family: Georgia,serif !important;
+  font-style: italic !important; }
+
+.jobName {
+  font-weight: bold !important;
+  font-size: 1.2em !important; }
+
+.eduName {
+  font-weight: bold !important;
+  font-size: 1.2em !important; }
+
+.eduName a {
+  color: #FF7817 !important; }
+
+.eduName a:hover {
+  color: #FF9C33 !important; }
+
+.actName {
+  font-weight: bold !important;
+  font-size: 1.2em !important; }
+
+.actName a {
+  color: #8BE036 !important; }
+
+.actName a:hover {
+  color: #91FA5C !important; }
+
+.jobTitle {
+  padding-left: 0.8em !important;
+  margin-top: 1em !important; }
+
+.jobDescription {
+  margin-top: 0em !important; }
+
+.job {
+  padding-left: 1em !important;
+  margin-bottom: 1em !important; }
+  @media screen and (min-width: 600px) {
+    .job {
+      font-size: 0.95em !important; } }
+
+#resumeWrap {
+  width: 80% !important;
+  margin: auto !important;
+  padding-top: 3em; }
+
+#skills {
+  margin-top: 1em !important;
+  padding-top: 1em !important; }
+  @media screen and (min-width: 600px) {
+    #skills {
+      margin-top: 0 !important;
+      padding-top: 0 !important; } }
+
+@media screen and (min-width: 600px) {
+  .resumeMain {
+    float: left !important;
+    width: 60% !important;
+    padding-right: 0.5em !important;
+    padding-bottom: 1em !important; }
+
+  .resumeSecondary {
+    padding-top: 0 !important;
+    float: right !important;
+    width: 40% !important;
+    padding-left: 1.5em !important; } }
+article ul {
+  margin-left: 2em !important;
+  padding: 0.2em !important; }
+
+article li {
+  padding: 0.2em !important; }
+
+.skills {
+  font-family: Georgia, serif !important;
+  font-style: italic !important; }
