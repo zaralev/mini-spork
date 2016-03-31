@@ -185,7 +185,7 @@ header{
   position:fixed;
   top:0;
   width:100%;
-  z-index:1;
+  z-index:3;
   background-color: #FFF;
 }
 nav {
@@ -451,7 +451,7 @@ span.text-content {
   height:15em;
   width:100%;
   padding: 3em 1em 2em 1em;
-  z-index:3;
+  z-index:1;
 }
 @media screen and (min-width: 768px) {
   span.mobile-text-content{
